@@ -1,0 +1,4 @@
+urlConexao=jdbc:mysql://localhost:3306/tw_jdbc?useSSL=false
+usuarioConexao=root
+senhaConexao=81776279
+  

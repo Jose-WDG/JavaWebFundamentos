@@ -1,0 +1,10 @@
+127.0.0.1 - - [27/Jun/2019:21:01:24 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:21:01:25 -0300] "GET /tw-agenda-servelets/servlet/br.com.treinaweb.agenda.servelets.HelloServelet HTTP/1.1" 404 1169
+127.0.0.1 - - [27/Jun/2019:21:15:11 -0300] "GET / HTTP/1.1" 404 1086
+127.0.0.1 - - [27/Jun/2019:21:15:51 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:21:17:20 -0300] "GET /tw-agenda-servelets/hello HTTP/1.1" 200 129
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:21:17:20 -0300] "GET /robots.txt HTTP/1.1" 404 1096
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:21:17:20 -0300] "GET /favicon.ico HTTP/1.1" 404 1097
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:21:17:37 -0300] "GET /tw-agenda-servelets/hello HTTP/1.1" 200 129
+127.0.0.1 - - [27/Jun/2019:21:17:45 -0300] "GET / HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [27/Jun/2019:21:17:48 -0300] "GET /tw-agenda-servelets/hello HTTP/1.1" 200 133

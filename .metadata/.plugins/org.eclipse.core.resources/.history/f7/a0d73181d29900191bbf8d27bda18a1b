@@ -1,0 +1,60 @@
+package br.com.treinaweb.agenda.servelets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class FormularioServlet extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3065601288408989962L;
+	
+	
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		PrintWriter out = resp.getWriter();
+		out.println("<html>");
+			
+			out.println("<head>");
+				out.println("<title>Formulario </title>");
+			out.println("</head>");
+			
+			out.println("<body>");
+				
+				out.println("<form action=\"/tw-agenda-servelets/mensagem\" method=\"post\">");
+				out.println("<p>Digite seu nome: </p>");
+				out.println("<input type=\"text\" name=\"nome\">");
+				out.println("<button type=\"submit\">Enviar</button>");
+				out.println("</form>");
+			
+			out.println("</body>");
+		
+		out.println("</html>");
+	}
+
+
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String nomeUsuario = req.getParameter("nome");
+		PrintWriter out = resp.getWriter();
+		out.println("<html>");
+			out.println("<head>");
+				out.println("<meta charset=\"UTF-8\">");
+				out.println("<title>"+nomeUsuario+"</title>");
+				
+			out.println("</head>");
+			out.println("<body>");
+				out.println("<p>Olá, "+nomeUsuario+"</p>");
+			out.println("</body>");
+		out.println("</html>");
+	}
+
+}

@@ -1,0 +1,12 @@
+package br.com.treinaweb.agenda.servelets;
+
+import javax.servlet.http.HttpServlet;
+
+public class FormularioServelet extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3065601288408989962L;
+
+}

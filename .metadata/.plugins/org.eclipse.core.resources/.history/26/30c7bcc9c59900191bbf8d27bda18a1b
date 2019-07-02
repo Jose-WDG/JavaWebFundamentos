@@ -1,0 +1,14 @@
+package br.com.treinaweb.agenda.servelets;
+
+import javax.servlet.http.HttpServlet;
+
+public class servletReceberNomeMessagem extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7401058518834917079L;
+	
+	
+
+}

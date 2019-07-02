@@ -1,0 +1,7 @@
+package br.com.treinaweb.agenda.servelets;
+
+import com.sun.net.httpserver.spi.HttpServerProvider;
+
+public class HelloServelet extends HttpServerProvider {
+
+}

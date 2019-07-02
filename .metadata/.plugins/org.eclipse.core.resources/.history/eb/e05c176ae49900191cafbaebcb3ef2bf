@@ -1,0 +1,7 @@
+package br.com.treinaweb.servlets.agenda;
+
+import javax.servlet.http.HttpServlet;
+
+public class ListaContatosServlet extends HttpServlet{
+
+}

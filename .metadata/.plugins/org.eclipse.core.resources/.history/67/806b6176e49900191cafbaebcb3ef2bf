@@ -1,0 +1,13 @@
+package br.com.treinaweb.servlets.agenda;
+
+import javax.servlet.http.HttpServlet;
+
+public class ListaContatosServlet extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4224205316837151342L;
+	
+
+}
